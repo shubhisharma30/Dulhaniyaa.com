@@ -1,0 +1,130 @@
+.comma-list {
+  display: inline;
+  list-style: none;
+  padding: 0px;
+}
+
+.comma-list li {
+  display: inline;
+}
+.comma-list li::after {
+  content: ", ";
+}
+
+.comma-list li:last-child::after {
+    content: "";
+}
+
+section ul li a:hover{
+	text-decoration: none;
+	color: #E75480;
+	background-color: #E75480;
+}
+
+
+
+.ourservices{
+	padding: 100px 0px 60px;
+	height: 700px;
+}
+
+.ourservices h3{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: serif;
+}
+.ourservices p{
+	font-family: serif;
+}
+.ourservices h5{
+	font-family: serif;
+}
+
+.rowsetting{
+	margin: 80px 0px !important;
+
+}
+
+.imagesetting{
+	border-radius: 50%;
+	height:70px;
+	width: 70px;
+	
+	border: 2px solid #E75480;
+	
+	
+}
+
+img{
+	margin-top: 10px;
+}
+.card{
+	position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(72, 94, 144, 0.16);
+    border-radius: 0.25rem;
+}
+
+.card-body{
+	height: 40%;
+	width: 100%;
+}
+
+ .card h5{
+	color: black !important;
+}
+
+.card:hover{
+	transform: scale(1.05);
+	box-shadow: 0px 10px 20px rgba(0,0,0,.12) 0px 4px 8px rgba(0,0,0,.06);
+}
+
+.DulhaniyaWorld{
+	padding: 500px 0px 60px !important;
+	
+}
+
+.DulhaniyaWorld h3{
+	font-family: serif;
+}
+
+	
+.RealWedding{
+	padding: 20px;
+	}
+
+.card-title{
+	padding: 20px;
+}
+.card p{
+	font-size: 12px;
+}
+
+.Dulhaniyaa h3{
+	font-family:Brush Script MT, Brush Script Std, cursive ;
+	color: #E75480 !important;
+
+}
+
+hr.solid {
+  border-top: 1px solid #bbb;
+}
+
+.Dulhaniyaa p{
+	font-size: 12px;
+}
+.Dulhaniyaa .head1 {
+	font-size:14px;
+
+}
+
+.card li{
+	font-size: 12px;
+
+}
