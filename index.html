@@ -5,6 +5,8 @@
 <title>Dulhaniya Website</title>
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/style1.css">
+<link rel="stylesheet" type="text/css" href="css/decorate.css">
+
 
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -23,6 +25,107 @@
 </head>
 
 <body>
+	<div class="modal" id="mymodel">
+		
+			
+				<div class="container">
+					<div class="row px-3">
+						<div class="col-lg-10 col-xl-9 card flex-row mx-auto px-0">
+							<div class="img-left d-none d-md-flex">
+								<img src="C:\Users\lenovo\Documents\loginform\loginimg.jpg">
+							</div>
+
+						<div class="card-body">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+
+							<h4 class="title text-center mt-4">
+								Aurangabad's Biggest Wedding Planning Platform</h4>
+
+							<form class="form-box px-3">
+								<div class="form-input">
+									<span><i class="fa fa-envelope-o"></i> </span>
+									<input type="email" name="" placeholder="Email Address" 
+									tabindex="10" required>
+								</div>
+								<div class="form-input">
+									<span><i class="fa fa-key"></i> </span>
+									<input type="Password" name="" placeholder="Password" 
+									tabindex="10" required>
+								</div>
+
+						<div class="mb-3">
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input" id="cb1" name="">
+								<label class="custom-control-label" for ="cb1">Remember me</label>
+								
+							</div>
+							
+
+						</div>
+
+						<div class="mb-3">
+							<button type="submit" class="btn btn-block text-uppercase">Login
+							</button>
+						</div>
+
+						<div class="text-right">
+							<a href="#" class="forget-link">
+								Forget Password?
+							</a>
+						</div>
+
+						<div class="text-center mb-3">
+							or login with
+						</div>
+
+						<div class="row mb-3">
+							<div class="col-4">
+								<a href="#" class="btn btn-block btn-social btn-facebook">Facebook</a>
+								
+							</div>
+
+							<div class="col-4">
+								<a href="#" class="btn btn-block btn-social btn-twitter">Twitter</a>
+								
+							</div>
+
+							<div class="col-4">
+								<a href="#" class="btn btn-block btn-social btn-google">google</a>
+								
+							</div>
+							
+
+						</div>
+
+						<hr class="my-4">
+						<div class="text-center mb-2">
+							Don't have an account?
+							<a href="#" class="register-link">Register Here</a>
+							
+
+						</div>
+
+						<div class="text-center">
+							Are you a vendor?
+							<a href="#" class="btn btn-block btn-success">Business Sign in </a>
+						</div>
+						
+
+					</form>
+					
+
+				</div>
+				
+
+			</div>
+
+		</div>
+		
+
+
+	</div>
+
+</div>
  
 <div class="bgimg">
 	<div class="container">
@@ -30,7 +133,7 @@
 			<div class="col-12">
 				<nav class="navbar navbar-expand-lg navbar-custom fixed-top">
   
-    			<a class="navbar-brand text-white" href="#">Home</a>
+    			<a class="navbar-brand text-white" href="#" style="font-size: 12px">Home</a>
     			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
       			<span class="navbar-toggler-icon"></span>
     			</button>
@@ -39,7 +142,7 @@
         
       
         <li class="nav-item dropdown menu-area">
-          <a class="nav-link dropdown-toggle text-white" href="#" id="mega-one" role="button" data-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="mega-one" role="button" data-toggle="dropdown" aria-expanded="false" style="font-size: 12px">
             Vendor Showcase
           </a>
           <div class="dropdown-menu mega-area" aria-labelledby="mega-one">
@@ -80,19 +183,19 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white " href="#" >Photos</a>
+          <a class="nav-link text-white " href="#" style="font-size: 12px">Photos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="#" >Real Wedding</a>
+          <a class="nav-link text-white" href="#" style="font-size: 12px">Real Wedding</a>
         </li>
 
         <li class="nav-item dropdown ">
-          <a class="nav-link dropdown-toggle text-white" href="#" id="mega-one" role="button" data-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="mega-one" role="button" data-toggle="dropdown" aria-expanded="false" style="font-size: 12px">
             Spot Light
           </a>
-          <div class="dropdown-menu " aria-labelledby="mega-one">
+          <div class="dropdown-menu mega-area " aria-labelledby="mega-one">
           		<div class="row">
-          			<div class="col-sm-6 col-lg-3">
+          			<div class="col-sm-12">
           				
           				<a href="#" class="dropdown-item">News</a>
           				<a href="#" class="dropdown-item">Submit your Wedding</a>
@@ -104,16 +207,21 @@
 			</div>
 		</li>
 		 <li class="nav-item">
-          <a class="nav-link text-white " href="#" >Matrimony</a>
+          <a class="nav-link text-white " href="#" style="font-size: 12px" >Matrimony</a>
         </li>
 		</ul>
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
+        <button class="btn btn-outline-success " type="submit"><a href="#" data-target="#mymodel" data-toggle="modal"><i class="fa fa-user" style="font-size:10px;color:white">LOGIN</i></a>
+        </button>
+
       </form>
     </div>
   </div>
 </nav>
+
+
 </div>
 </div>
 <div class="container text-center text-white headerset">
@@ -353,7 +461,8 @@
 
 
 </div>
-<section class="container ourservices text-center">
+<section class=" ourservices bg-light ">
+	<div class="container text-center ">
 	<h3>Planning Wedding Made Easy</h3>
 	<p>From Bridal Lehengas to Wedding Venues to Wedding Photographers, we have curated the best of the Wedding Vendors</p>
 	<div class="row rowsetting">
@@ -574,6 +683,7 @@
 </div>
 </div>
 </div>
+</div>
 
 
 
@@ -592,6 +702,7 @@
 						<div class="card-body">
 							<h6>MAKEUP MASTERS</h6>
 						</div>
+						
 						
 
 					</div>
@@ -772,8 +883,8 @@
 
 					<p><i style="color:#E75480">•Dulhaniyaa Matrimony:</i> Welcome to Dulhaniyaa Matrimony. Every life has its own charm in each and every stage and a married life is no exception. Marriage is an institution, which initiates the authentic and real values of life. Traditionally in India, a marriage is usually arranged by the family or Relatives of the bride or the groom within a particular known circle. But today’s nomad life has narrowed this choice and hence wedding websites lead an important role. Dulhaniyaa.com helps you find your perfect </p>
 				</div>
-				<button class="btn btn-primary" style="margin: 80px">Register as Vendor</button>
-				<button class="btn btn-primary" style="margin:80px">Explore Wedding Categories</button>
+				<button class="btn btn-primary" style="margin: 50px">Register as Vendor</button>
+				<button class="btn btn-primary" style="margin:50px">Explore Wedding Categories</button>
 
 
 			</div>
@@ -863,18 +974,135 @@
 		</div>
 
 	</div>
+</section>
 
+<section class="links">
+	<div class="container bg-light">
+		<hr class="solid">
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-12 col-12 d-block ml-auto">
+				<h6> Wedding vendors in CIDCO</h6>
+				<ul>
+					<li><a href="#" style="color: #707070">Bridal jwellary in CIDCO</a></li>
+					<li><a href="#" style="color: #707070">Wedding venue in CIDCO</a></li>
+					<li><a href="#" style="color: #707070">Wedding Cake in CIDCO</a></li>
+					<li><a href="#" style="color: #707070">Mehandi Artists in CIDCO</a></li>
+					<li><a href="#" style="color: #707070">Makeup Masters in CIDCO</a></li>
+				</ul>
+			</div>
 
+			<div class="col-lg-3 col-md-3 col-sm-12 col-12 d-block ml-auto">
+				<h6> Wedding vendors in Waluj</h6>
+				<ul>
+					<li><a href="#" style="color: #707070">Bridal jwellary in Waluj</a></li>
+					<li><a href="#" style="color: #707070">Wedding venue in Waluj</a></li>
+					<li><a href="#" style="color: #707070">Wedding Cake in Waluj</a></li>
+					<li><a href="#" style="color: #707070">Mehandi Artists in Waluj</a></li>
+					<li><a href="#" style="color: #707070">Makeup Masters in Waluj</a></li>
+				</ul>
+			</div>
 
-				
+			<div class="col-lg-3 col-md-3 col-sm-12 col-12 d-block ml-auto">
+				<h6> Wedding vendors in Chikalthana</h6>
+				<ul>
+					<li><a href="#" style="color: #707070">Bridal jwellary in chikalthana</a></li>
+					<li><a href="#" style="color: #707070">Wedding venue in chikalthana</a></li>
+					<li><a href="#" style="color: #707070">Wedding Cake in chikalthana</a></li>
+					<li><a href="#" style="color: #707070">Mehandi Artists in chikalthana</a></li>
+					<li><a href="#" style="color: #707070">Makeup Masters in chikalthana</a></li>
+				</ul>
+			</div>
 
-			
+			<div class="col-lg-3 col-md-3 col-sm-12 col-12 d-block ml-auto">
+				<h6> Wedding vendors in Harsul</h6>
+				<ul>
+					<li><a href="#" style="color: #707070">Bridal jwellary in Harsul</a></li>
+					<li><a href="#" style="color: #707070">Wedding venue in Harsul</a></li>
+					<li><a href="#" style="color: #707070">Wedding Cake in Harsul</a></li>
+					<li><a href="#" style="color: #707070">Mehandi Artists in CIDCO</a></li>
+					<li><a href="#" style="color: #707070">Makeup Masters in CIDCO</a></li>
+				</ul>
+			</div>
+		</div>
 
+		<hr class="solid">
 
-	
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-12 col-12 d-block ml-auto">
+				<h6> Explore Categories</h6>
+				<ul>
+					<li><a href="#" style="color: #707070">Bridal jwellary </a></li>
+					<li><a href="#" style="color: #707070">Wedding venue </a></li>
+					<li><a href="#" style="color: #707070">Wedding photographers </a></li>
+					<li><a href="#" style="color: #707070">Wedding Entertaintment </a></li>
+					<li><a href="#" style="color: #707070">and many more</a></li>
+				</ul>
+			</div>
 
+			<div class="col-lg-3 col-md-3 col-sm-12 col-12 d-block ml-auto">
+				<h6>Dulhaniyaa World </h6>
+				<ul>
+					<li><a href="#" style="color: #707070">Dulhaniya Makeup Masters</a></li>
+					<li><a href="#" style="color: #707070">Dulhaniya Models</a></li>
+					<li><a href="#" style="color: #707070">Dulhaniya Wedding Stories</a></li>
+					<li><a href="#" style="color: #707070">Dulhaniya Matrimony</a></li>
+					<li><a href="#" style="color: #707070">Dulhaniya Shadi Stylist</a></li>
+				</ul>
+			</div>
+
+			<div class="col-lg-3 col-md-3 col-sm-12 col-12 d-block ml-auto">
+				<h6> Dulhaniya Blogs </h6>
+				<ul>
+					<li><a href="#" style="color: #707070">Hanimoon Destination in north</a></li>
+					<li><a href="#" style="color: #707070">creative welcome wedding signs</a></li>
+					<li><a href="#" style="color: #707070">ideas for phoolon ki chadar</a></li>
+					<li><a href="#" style="color: #707070">farmhouse in delhi</a></li>
+					<li><a href="#" style="color: #707070">trending and offbeat kamarband</a></li>
+				</ul>
+			</div>
+
+			<div class="col-lg-3 col-md-3 col-sm-12 col-12 d-block ml-auto">
+				<h6>Quick Links</h6>
+				<ul>
+					<li><a href="#" style="color: #707070">About Dulhaniya</a></li>
+					<li><a href="#" style="color: #707070">Contact Us</a></li>
+					<li><a href="#" style="color: #707070">Submit your wedding</a></li>
+					<li><a href="#" style="color: #707070">Terms and Codition</a></li>
+					<li><a href="#" style="color: #707070">Privacy Policy</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
 
 </section>
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer text-center ">
+	<div class="row">
+		<div class="col-md-5">
+			
+			<i class=" fa fa-facebook-official" style="color: white"></i> 
+			<i class=" fa fa-instagram" style="color: white"></i>
+			
+		</div>
+		<div class="col-md-7">
+			Copyright &copy; 2021Dulhaniyaa. All Right Reserved.
+
+		</div>
+
+	</div>
+
+</footer>
 
 
 
