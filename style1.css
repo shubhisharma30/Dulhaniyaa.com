@@ -26,6 +26,7 @@ section ul li a:hover{
 .ourservices{
 	padding: 100px 0px 60px;
 	height: 700px;
+	width: 100%;
 }
 
 .ourservices h3{
@@ -78,6 +79,7 @@ img{
 
  .card h5{
 	color: black !important;
+	font-size: 15px;
 }
 
 .card:hover{
@@ -122,9 +124,24 @@ hr.solid {
 .Dulhaniyaa .head1 {
 	font-size:14px;
 
+
 }
 
 .card li{
 	font-size: 12px;
+	list-style: none;
 
 }
+
+.footer{
+	background-color: #E75480;
+}
+
+.links li a{
+	font-size: 12px;
+}
+.links li{
+	list-style: none;
+}
+
+
