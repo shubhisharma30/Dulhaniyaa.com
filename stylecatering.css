@@ -1,0 +1,49 @@
+hr {
+  border:none;
+  border-top:2px dotted #f00;
+  color:#fff;
+  background-color:#fff;
+  height:2px;
+  width:100%;
+}
+
+.heading h6{
+	font-family: serif;
+}
+hr{
+	border-top:1px dashed gray;
+}
+/*.cateringdetails{
+	padding: 100px 0px 40px;
+	height: 500px;
+}*/
+.cateringdetails h5{
+	font-family:serif;
+	font-weight: bold;
+}
+.cateringdetails h6{
+	font-family:serif;
+	font-weight: bold;
+	color:#E75480;
+	
+}
+.cateringdetails h3 .badge{
+	float: right;
+	background-color: #9ACD32;
+}
+.cateringdetails i{
+	font-family:serif;
+	color: #808080;
+	font-size: 15px;
+	float: left;
+}
+.badge{
+	float: right;
+
+}
+.details{
+	padding: 0px 0px 10px;
+}
+.block{
+	padding:0px 0px 0px;
+}
