@@ -20,26 +20,51 @@ hr{
 	font-family:serif;
 	font-weight: bold;
 }
+.planner h5{
+	font-family:serif;
+	font-weight: bold;
+}
 .cateringdetails h6{
 	font-family:serif;
 	font-weight: bold;
 	color:#E75480;
 	
 }
+
+.planner h6{
+	font-family:serif;
+	font-weight: bold;
+	color:#E75480;
+	
+}
+
 .cateringdetails h3 .badge{
 	float: right;
 	background-color: #9ACD32;
 }
-.bridalmakeup h3 .badge{
+.planner h3 .badge{
 	float: right;
 	background-color: #9ACD32;
 }
+.venue1 h3 .badge{
+	float: right;
+	background-color: #9ACD32;
+}
+.venue1 .badge p{
+	float: right;
+}
 .cateringdetails i{
 	font-family:serif;
-	color: #808080;
+	color: #E75480;
 	font-size: 15px;
 	float: left;
 }
+
+
+
+
+
+
 .badge{
 	float: right;
 
